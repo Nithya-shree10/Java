@@ -1,0 +1,14 @@
+import java.util.*;
+class hello{
+public static void main(String [] args)
+{
+    Scanner s = new Scanner(System.in);
+    int count = 0;
+    do
+    {
+        System.out.println("Enter a numner >10");
+        count = s.nextInt();
+    }
+    while(count<=10);
+}
+}
